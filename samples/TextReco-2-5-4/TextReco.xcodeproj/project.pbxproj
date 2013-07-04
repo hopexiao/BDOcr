@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1552F098175513FA00216FAC /* Vuforia-English-word.vwl in Resources */ = {isa = PBXBuildFile; fileRef = 1552F097175513FA00216FAC /* Vuforia-English-word.vwl */; };
+		15B915A0173BEA6F00CFA57A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B9159F173BEA6F00CFA57A /* Default-568h@2x.png */; };
+		15B915A2173BEA7400CFA57A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B915A1173BEA7400CFA57A /* Default.png */; };
+		15B915A4173BEA7900CFA57A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B915A3173BEA7900CFA57A /* Default@2x.png */; };
+		15B915A6173BEA8200CFA57A /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B915A5173BEA8200CFA57A /* Default-Landscape@2x~ipad.png */; };
+		15B915A8173BEA8900CFA57A /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B915A7173BEA8900CFA57A /* Default-Landscape~ipad.png */; };
+		15B915AA173BEA8E00CFA57A /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B915A9173BEA8E00CFA57A /* Default-Portrait@2x~ipad.png */; };
+		15B915AC173BEA9700CFA57A /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B915AB173BEA9700CFA57A /* Default-Portrait~ipad.png */; };
+		63DFB01D1773F93D00C6233F /* WDParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB01C1773F93D00C6233F /* WDParseOperation.m */; };
+		AA09ABC71727DF4B00849D4B /* WordlistView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09ABC61727DF4B00849D4B /* WordlistView.m */; };
+		AA5BF8E0171E9A70004CAB90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF8DF171E9A70004CAB90 /* UIKit.framework */; };
+		AA5BF8E2171E9A70004CAB90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF8E1171E9A70004CAB90 /* Foundation.framework */; };
+		AA5BF8E4171E9A70004CAB90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF8E3171E9A70004CAB90 /* CoreGraphics.framework */; };
+		AA5BF8EA171E9A70004CAB90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5BF8E8171E9A70004CAB90 /* InfoPlist.strings */; };
+		AA5BF8EC171E9A70004CAB90 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF8EB171E9A70004CAB90 /* main.mm */; };
+		AA5BF8F0171E9A70004CAB90 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF8EF171E9A70004CAB90 /* AppDelegate.mm */; };
+		AA5BF927171E9C31004CAB90 /* AboutViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF919171E9C31004CAB90 /* AboutViewController.mm */; };
+		AA5BF928171E9C31004CAB90 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5BF91A171E9C31004CAB90 /* AboutViewController.xib */; };
+		AA5BF929171E9C31004CAB90 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF91C171E9C31004CAB90 /* EAGLView.mm */; };
+		AA5BF92A171E9C31004CAB90 /* EAGLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF91E171E9C31004CAB90 /* EAGLViewController.mm */; };
+		AA5BF92B171E9C31004CAB90 /* QCARControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF920171E9C31004CAB90 /* QCARControl.mm */; };
+		AA5BF92C171E9C31004CAB90 /* ShaderUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF921171E9C31004CAB90 /* ShaderUtils.cpp */; };
+		AA5BF92D171E9C31004CAB90 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF924171E9C31004CAB90 /* SplashViewController.m */; };
+		AA5BF94A171E9D04004CAB90 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = AA5BF949171E9D04004CAB90 /* about.html */; };
+		AA5BF94D171EA4C9004CAB90 /* ErrorReport.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5BF94C171EA4C9004CAB90 /* ErrorReport.mm */; };
+		AA5BF94F171EAA13004CAB90 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF94E171EAA13004CAB90 /* QuartzCore.framework */; };
+		AA5BF951171EAA26004CAB90 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF950171EAA26004CAB90 /* CoreMedia.framework */; };
+		AA5BF953171EAA31004CAB90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF952171EAA31004CAB90 /* SystemConfiguration.framework */; };
+		AA5BF955171EAA38004CAB90 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF954171EAA38004CAB90 /* AVFoundation.framework */; };
+		AA5BF957171EAA59004CAB90 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF956171EAA59004CAB90 /* CoreVideo.framework */; };
+		AA5BF959171EAA65004CAB90 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF958171EAA65004CAB90 /* OpenGLES.framework */; };
+		AA5BF95B171EAA6F004CAB90 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF95A171EAA6F004CAB90 /* CoreMotion.framework */; };
+		AA5BF95D171EAA78004CAB90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF95C171EAA78004CAB90 /* Security.framework */; };
+		AA5BF95F171EAE56004CAB90 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5BF95E171EAE56004CAB90 /* libQCAR.a */; };
+		AA9B42F4172FCF7600400C01 /* app_icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9B42F3172FCF7600400C01 /* app_icon_iPad.png */; };
+		AA9B42F6172FCF9300400C01 /* app_icon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9B42F5172FCF9300400C01 /* app_icon_iPad@2x.png */; };
+		AACCF7AC1726C87C00BAB012 /* app_icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = AACCF7AB1726C87800BAB012 /* app_icon_iPhone.png */; };
+		AACCF7AE1726C8AA00BAB012 /* app_icon_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACCF7AD1726C8A700BAB012 /* app_icon_iPhone@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1552F097175513FA00216FAC /* Vuforia-English-word.vwl */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vuforia-English-word.vwl"; sourceTree = "<group>"; };
+		15B9159F173BEA6F00CFA57A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		15B915A1173BEA7400CFA57A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		15B915A3173BEA7900CFA57A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		15B915A5173BEA8200CFA57A /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		15B915A7173BEA8900CFA57A /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		15B915A9173BEA8E00CFA57A /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		15B915AB173BEA9700CFA57A /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		63DFB01B1773F93C00C6233F /* WDParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDParseOperation.h; sourceTree = "<group>"; };
+		63DFB01C1773F93D00C6233F /* WDParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDParseOperation.m; sourceTree = "<group>"; };
+		AA09ABC51727DF4B00849D4B /* WordlistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordlistView.h; sourceTree = "<group>"; };
+		AA09ABC61727DF4B00849D4B /* WordlistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordlistView.m; sourceTree = "<group>"; };
+		AA5BF8DB171E9A70004CAB90 /* TextReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5BF8DF171E9A70004CAB90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA5BF8E1171E9A70004CAB90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5BF8E3171E9A70004CAB90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA5BF8E7171E9A70004CAB90 /* TextReco-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextReco-Info.plist"; sourceTree = "<group>"; };
+		AA5BF8E9171E9A70004CAB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5BF8EB171E9A70004CAB90 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		AA5BF8ED171E9A70004CAB90 /* TextReco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextReco-Prefix.pch"; sourceTree = "<group>"; };
+		AA5BF8EE171E9A70004CAB90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5BF8EF171E9A70004CAB90 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		AA5BF8FD171E9A70004CAB90 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA5BF918171E9C31004CAB90 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		AA5BF919171E9C31004CAB90 /* AboutViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AboutViewController.mm; sourceTree = "<group>"; };
+		AA5BF91A171E9C31004CAB90 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		AA5BF91B171E9C31004CAB90 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		AA5BF91C171E9C31004CAB90 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		AA5BF91D171E9C31004CAB90 /* EAGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLViewController.h; sourceTree = "<group>"; };
+		AA5BF91E171E9C31004CAB90 /* EAGLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLViewController.mm; sourceTree = "<group>"; };
+		AA5BF91F171E9C31004CAB90 /* QCARControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCARControl.h; sourceTree = "<group>"; };
+		AA5BF920171E9C31004CAB90 /* QCARControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QCARControl.mm; sourceTree = "<group>"; };
+		AA5BF921171E9C31004CAB90 /* ShaderUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderUtils.cpp; sourceTree = "<group>"; };
+		AA5BF922171E9C31004CAB90 /* ShaderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtils.h; sourceTree = "<group>"; };
+		AA5BF923171E9C31004CAB90 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		AA5BF924171E9C31004CAB90 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		AA5BF949171E9D04004CAB90 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = Resources/Assets/about.html; sourceTree = "<group>"; };
+		AA5BF94B171EA4C9004CAB90 /* ErrorReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorReport.h; sourceTree = "<group>"; };
+		AA5BF94C171EA4C9004CAB90 /* ErrorReport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ErrorReport.mm; sourceTree = "<group>"; };
+		AA5BF94E171EAA13004CAB90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AA5BF950171EAA26004CAB90 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AA5BF952171EAA31004CAB90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AA5BF954171EAA38004CAB90 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA5BF956171EAA59004CAB90 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AA5BF958171EAA65004CAB90 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AA5BF95A171EAA6F004CAB90 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		AA5BF95C171EAA78004CAB90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AA5BF95E171EAE56004CAB90 /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQCAR.a; path = ../../build/lib/arm/libQCAR.a; sourceTree = SOURCE_ROOT; };
+		AA9B42F3172FCF7600400C01 /* app_icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_iPad.png; sourceTree = "<group>"; };
+		AA9B42F5172FCF9300400C01 /* app_icon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon_iPad@2x.png"; sourceTree = "<group>"; };
+		AACCF7A617269E6700BAB012 /* LineShaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineShaders.h; sourceTree = "<group>"; };
+		AACCF7AB1726C87800BAB012 /* app_icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_iPhone.png; sourceTree = "<group>"; };
+		AACCF7AD1726C8A700BAB012 /* app_icon_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon_iPhone@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5BF8D8171E9A70004CAB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5BF95F171EAE56004CAB90 /* libQCAR.a in Frameworks */,
+				AA5BF95D171EAA78004CAB90 /* Security.framework in Frameworks */,
+				AA5BF95B171EAA6F004CAB90 /* CoreMotion.framework in Frameworks */,
+				AA5BF959171EAA65004CAB90 /* OpenGLES.framework in Frameworks */,
+				AA5BF957171EAA59004CAB90 /* CoreVideo.framework in Frameworks */,
+				AA5BF955171EAA38004CAB90 /* AVFoundation.framework in Frameworks */,
+				AA5BF953171EAA31004CAB90 /* SystemConfiguration.framework in Frameworks */,
+				AA5BF951171EAA26004CAB90 /* CoreMedia.framework in Frameworks */,
+				AA5BF94F171EAA13004CAB90 /* QuartzCore.framework in Frameworks */,
+				AA5BF8E0171E9A70004CAB90 /* UIKit.framework in Frameworks */,
+				AA5BF8E2171E9A70004CAB90 /* Foundation.framework in Frameworks */,
+				AA5BF8E4171E9A70004CAB90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5BF8D0171E9A70004CAB90 = {
+			isa = PBXGroup;
+			children = (
+				15B915AB173BEA9700CFA57A /* Default-Portrait~ipad.png */,
+				15B915A9173BEA8E00CFA57A /* Default-Portrait@2x~ipad.png */,
+				15B915A7173BEA8900CFA57A /* Default-Landscape~ipad.png */,
+				15B915A5173BEA8200CFA57A /* Default-Landscape@2x~ipad.png */,
+				15B915A3173BEA7900CFA57A /* Default@2x.png */,
+				15B915A1173BEA7400CFA57A /* Default.png */,
+				15B9159F173BEA6F00CFA57A /* Default-568h@2x.png */,
+				AA9B42F5172FCF9300400C01 /* app_icon_iPad@2x.png */,
+				AA9B42F3172FCF7600400C01 /* app_icon_iPad.png */,
+				AACCF7AD1726C8A700BAB012 /* app_icon_iPhone@2x.png */,
+				AACCF7AB1726C87800BAB012 /* app_icon_iPhone.png */,
+				AA5BF8E5171E9A70004CAB90 /* TextReco */,
+				AA5BF8DE171E9A70004CAB90 /* Frameworks */,
+				AA5BF8DC171E9A70004CAB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5BF8DC171E9A70004CAB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BF8DB171E9A70004CAB90 /* TextReco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5BF8DE171E9A70004CAB90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BF95E171EAE56004CAB90 /* libQCAR.a */,
+				AA5BF95C171EAA78004CAB90 /* Security.framework */,
+				AA5BF95A171EAA6F004CAB90 /* CoreMotion.framework */,
+				AA5BF958171EAA65004CAB90 /* OpenGLES.framework */,
+				AA5BF956171EAA59004CAB90 /* CoreVideo.framework */,
+				AA5BF954171EAA38004CAB90 /* AVFoundation.framework */,
+				AA5BF952171EAA31004CAB90 /* SystemConfiguration.framework */,
+				AA5BF950171EAA26004CAB90 /* CoreMedia.framework */,
+				AA5BF94E171EAA13004CAB90 /* QuartzCore.framework */,
+				AA5BF8DF171E9A70004CAB90 /* UIKit.framework */,
+				AA5BF8E1171E9A70004CAB90 /* Foundation.framework */,
+				AA5BF8E3171E9A70004CAB90 /* CoreGraphics.framework */,
+				AA5BF8FD171E9A70004CAB90 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5BF8E5171E9A70004CAB90 /* TextReco */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BF947171E9CED004CAB90 /* Resources */,
+				AA5BF8E6171E9A70004CAB90 /* Supporting Files */,
+				AA5BF8EE171E9A70004CAB90 /* AppDelegate.h */,
+				AA5BF8EF171E9A70004CAB90 /* AppDelegate.mm */,
+				63DFB01B1773F93C00C6233F /* WDParseOperation.h */,
+				63DFB01C1773F93D00C6233F /* WDParseOperation.m */,
+				AA5BF918171E9C31004CAB90 /* AboutViewController.h */,
+				AA5BF919171E9C31004CAB90 /* AboutViewController.mm */,
+				AA5BF94B171EA4C9004CAB90 /* ErrorReport.h */,
+				AA5BF94C171EA4C9004CAB90 /* ErrorReport.mm */,
+				AA5BF91A171E9C31004CAB90 /* AboutViewController.xib */,
+				AA5BF91B171E9C31004CAB90 /* EAGLView.h */,
+				AA5BF91C171E9C31004CAB90 /* EAGLView.mm */,
+				AA5BF91D171E9C31004CAB90 /* EAGLViewController.h */,
+				AA5BF91E171E9C31004CAB90 /* EAGLViewController.mm */,
+				AACCF7A617269E6700BAB012 /* LineShaders.h */,
+				AA5BF91F171E9C31004CAB90 /* QCARControl.h */,
+				AA5BF920171E9C31004CAB90 /* QCARControl.mm */,
+				AA5BF921171E9C31004CAB90 /* ShaderUtils.cpp */,
+				AA5BF922171E9C31004CAB90 /* ShaderUtils.h */,
+				AA5BF923171E9C31004CAB90 /* SplashViewController.h */,
+				AA5BF924171E9C31004CAB90 /* SplashViewController.m */,
+				AA09ABC51727DF4B00849D4B /* WordlistView.h */,
+				AA09ABC61727DF4B00849D4B /* WordlistView.m */,
+			);
+			path = TextReco;
+			sourceTree = "<group>";
+		};
+		AA5BF8E6171E9A70004CAB90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1552F097175513FA00216FAC /* Vuforia-English-word.vwl */,
+				AA5BF8E7171E9A70004CAB90 /* TextReco-Info.plist */,
+				AA5BF8E8171E9A70004CAB90 /* InfoPlist.strings */,
+				AA5BF8EB171E9A70004CAB90 /* main.mm */,
+				AA5BF8ED171E9A70004CAB90 /* TextReco-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5BF947171E9CED004CAB90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BF948171E9CF5004CAB90 /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA5BF948171E9CF5004CAB90 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA5BF949171E9D04004CAB90 /* about.html */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5BF8DA171E9A70004CAB90 /* TextReco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5BF90E171E9A70004CAB90 /* Build configuration list for PBXNativeTarget "TextReco" */;
+			buildPhases = (
+				AA5BF8D7171E9A70004CAB90 /* Sources */,
+				AA5BF8D8171E9A70004CAB90 /* Frameworks */,
+				AA5BF8D9171E9A70004CAB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextReco;
+			productName = TextReco;
+			productReference = AA5BF8DB171E9A70004CAB90 /* TextReco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5BF8D2171E9A70004CAB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Qualcomm;
+			};
+			buildConfigurationList = AA5BF8D5171E9A70004CAB90 /* Build configuration list for PBXProject "TextReco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5BF8D0171E9A70004CAB90;
+			productRefGroup = AA5BF8DC171E9A70004CAB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5BF8DA171E9A70004CAB90 /* TextReco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5BF8D9171E9A70004CAB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5BF8EA171E9A70004CAB90 /* InfoPlist.strings in Resources */,
+				AA5BF928171E9C31004CAB90 /* AboutViewController.xib in Resources */,
+				AA5BF94A171E9D04004CAB90 /* about.html in Resources */,
+				AACCF7AC1726C87C00BAB012 /* app_icon_iPhone.png in Resources */,
+				AACCF7AE1726C8AA00BAB012 /* app_icon_iPhone@2x.png in Resources */,
+				AA9B42F4172FCF7600400C01 /* app_icon_iPad.png in Resources */,
+				AA9B42F6172FCF9300400C01 /* app_icon_iPad@2x.png in Resources */,
+				15B915A0173BEA6F00CFA57A /* Default-568h@2x.png in Resources */,
+				15B915A2173BEA7400CFA57A /* Default.png in Resources */,
+				15B915A4173BEA7900CFA57A /* Default@2x.png in Resources */,
+				15B915A6173BEA8200CFA57A /* Default-Landscape@2x~ipad.png in Resources */,
+				15B915A8173BEA8900CFA57A /* Default-Landscape~ipad.png in Resources */,
+				15B915AA173BEA8E00CFA57A /* Default-Portrait@2x~ipad.png in Resources */,
+				15B915AC173BEA9700CFA57A /* Default-Portrait~ipad.png in Resources */,
+				1552F098175513FA00216FAC /* Vuforia-English-word.vwl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5BF8D7171E9A70004CAB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5BF8EC171E9A70004CAB90 /* main.mm in Sources */,
+				AA5BF8F0171E9A70004CAB90 /* AppDelegate.mm in Sources */,
+				AA5BF927171E9C31004CAB90 /* AboutViewController.mm in Sources */,
+				AA5BF929171E9C31004CAB90 /* EAGLView.mm in Sources */,
+				AA5BF92A171E9C31004CAB90 /* EAGLViewController.mm in Sources */,
+				AA5BF92B171E9C31004CAB90 /* QCARControl.mm in Sources */,
+				AA5BF92C171E9C31004CAB90 /* ShaderUtils.cpp in Sources */,
+				AA5BF92D171E9C31004CAB90 /* SplashViewController.m in Sources */,
+				AA5BF94D171EA4C9004CAB90 /* ErrorReport.mm in Sources */,
+				AA09ABC71727DF4B00849D4B /* WordlistView.m in Sources */,
+				63DFB01D1773F93D00C6233F /* WDParseOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA5BF8E8171E9A70004CAB90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5BF8E9171E9A70004CAB90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5BF90C171E9A70004CAB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../build/include;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5BF90D171E9A70004CAB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../build/include;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5BF90F171E9A70004CAB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextReco/TextReco-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../build/include;
+				INFOPLIST_FILE = "TextReco/TextReco-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA5BF910171E9A70004CAB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextReco/TextReco-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../build/include;
+				INFOPLIST_FILE = "TextReco/TextReco-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5BF8D5171E9A70004CAB90 /* Build configuration list for PBXProject "TextReco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5BF90C171E9A70004CAB90 /* Debug */,
+				AA5BF90D171E9A70004CAB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5BF90E171E9A70004CAB90 /* Build configuration list for PBXNativeTarget "TextReco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5BF90F171E9A70004CAB90 /* Debug */,
+				AA5BF910171E9A70004CAB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5BF8D2171E9A70004CAB90 /* Project object */;
+}
